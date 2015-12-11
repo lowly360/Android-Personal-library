@@ -1,8 +1,11 @@
 ## 个人收藏 自定义组件
 
-### update
-* 学习了下拉刷新&上啦更多的自定义ListView
+### 个人编写 
+
 * 常用帮助界面自定义Item
+	<img width="300" height="150" src="https://raw.githubusercontent.com/lowly360/Custom-control/master/jgp%26gif/own_help_item.jpg" />
+
+* 学习了下拉刷新&上啦更多的自定义ListView
 
 ## 常用开源框架收藏
 
