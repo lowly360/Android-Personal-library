@@ -2,10 +2,16 @@
 
 ### 个人编写 
 
+#### 自定义控件
 * 常用帮助界面自定义Item
 	<img width="300" height="150" src="https://raw.githubusercontent.com/lowly360/Custom-control/master/jgp%26gif/own_help_item.jpg" />
 
 * 学习了下拉刷新&上啦更多的自定义ListView
+
+#### 工具类
+* 万能ListView适配器(学习[hyman](http://www.imooc.com/space/teacher/id/320852)老师的)
+	* 封装adapter,只需要实现convert函数即可
+	* 封装好ViewHolder类,无需自己去编写(用法可查看源码)
 
 ## 常用开源框架收藏
 
@@ -24,6 +30,8 @@
 
 ### 其他
 * [MaterialDesignLibrary](https://github.com/navasmdc/MaterialDesignLibrary):Material Design 风格的自定义控件集合
+
+
 
 ## License
 
