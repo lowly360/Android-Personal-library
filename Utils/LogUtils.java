@@ -15,7 +15,6 @@ public class LogUtils {
 
     public static boolean ENABLE = true;
     public static boolean LOG2FILE_ENABLE = false;
-    public static boolean LE_LOG2FILE_ENABLE = false;
     public static String FILE_PREFIX = "LogUtilsLogger";
     private static BufferedWriter mWriter;
 
@@ -106,15 +105,7 @@ public class LogUtils {
 
     public static int e(String msg) {
         if (ENABLE) {
-           // write2File(msg);
-            return Log.e(TAG, msg);
-        }
-        return 0;
-    }
-
-    public static int le(String msg) {
-        if (ENABLE) {
-            write2LeFile(msg);
+            write2File(msg);
             return Log.e(TAG, msg);
         }
         return 0;
@@ -144,7 +135,6 @@ public class LogUtils {
         Date date = new Date();
         SimpleDateFormat format = new SimpleDateFormat("HH:MM:ss ");
         String format1 = format.format(date);
-        if (LE_LOG2FILE_ENABLE) {
             try {
                 mWriter.write(format1 + ": \n" + log);
                 mWriter.newLine();
@@ -152,7 +142,6 @@ public class LogUtils {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        }
     }
 
 
