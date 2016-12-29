@@ -8,6 +8,10 @@
 
 * 学习了下拉刷新&上啦更多的自定义ListView
 
+* [RGB 取色版](https://github.com/lowly360/Personal-library/tree/master/RGBView)
+
+  ![](https://raw.githubusercontent.com/lowly360/Personal-library/master/jgp%26gif/le_rgb.gif)
+
 #### 工具类
 * 万能ListView适配器(学习[hyman](http://www.imooc.com/space/teacher/id/320852)老师的)
   * 封装adapter,只需要实现convert函数即可
