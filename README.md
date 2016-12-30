@@ -17,6 +17,12 @@
   * 封装adapter,只需要实现convert函数即可
   * 封装好ViewHolder类,无需自己去编写(用法可查看源码)
 
+#### java小程序
+> 方便便捷替换图片(暂时不够便捷,不能快速修改,随后优化),明天以后把他变为一个项目来维护
+
+![](https://raw.githubusercontent.com/lowly360/Personal-library/master/jgp%26gif/LeRePlaceUtils.png)
+
+
 ## 常用开源框架收藏
 
 ### ListView
