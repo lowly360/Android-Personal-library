@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PlayingAnimationBar">
+        <attr name="pab_fps" format="integer|reference" />
+        <attr name="pab_barCount" format="integer|reference" />
+        <attr name="pab_duration" format="integer|reference" />
+        <attr name="pab_margin" format="dimension|reference" />
+        <attr name="pab_topColor" format="color|reference" />
+        <attr name="pab_bottomColor" format="color|reference" />
+        <!--<attr name="pab_alphaInflexionEnable" format="boolean|reference" />-->
+    </declare-styleable>
+
+    <declare-styleable name="ItemOfHelpPager">
+        <attr name="btnText" format="string" />
+        <attr name="helpText1" format="string" />
+        <attr name="helpText2" format="string" />
+    </declare-styleable>
+</resources>
